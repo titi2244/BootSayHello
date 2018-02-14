@@ -11,6 +11,7 @@ public class TestController {
 	
 	@RequestMapping("/sayHello")
 	public String sayHello() {
+		logger.info("sayHello is called.");
 		return ("Hi!!! This is TestController sayHello");
 	}
 
