@@ -59,8 +59,7 @@
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                     <outputDirectory>target</outputDirectory>
-              		  <warName>ROOT</warName>
-                </configuration>
+                 </configuration>
             </plugin>
 		</plugins>
 	</build>

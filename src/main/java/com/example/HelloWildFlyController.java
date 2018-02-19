@@ -9,11 +9,11 @@ public class HelloWildFlyController {
 
     @RequestMapping("hello")
     public String hello(){
-        return ("Hello, SpringBoot on Wildfly");
+        return ("Hello, SpringBoot on firstBootOnDocker");
     }
     
     @RequestMapping("sayHello")
     public String sayHello(){
-        return ("Hello, SpringBoot on Wildfly for titi2244");
+        return ("Hello, SpringBoot on firstBootOnDocker for titi2244");
     }
 }
