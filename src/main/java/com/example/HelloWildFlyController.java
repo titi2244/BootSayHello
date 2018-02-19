@@ -5,6 +5,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloWildFlyController {
+    @RequestMapping("/")
+    public String welcome(){
+        return ("Welcome, SpringBoot on firstBootOnDocker");
+    }
 
 
     @RequestMapping("hello")
